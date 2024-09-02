@@ -4,7 +4,7 @@ from calculator.operations import subtract, multiply
 if __name__ == "__main__":
     opt = {
         'subtract': subtract,
-        'multiply': multiply
+        'multiply': multiply,
     }
 
     cli = CLI(opt)
