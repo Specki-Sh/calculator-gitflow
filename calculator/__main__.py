@@ -1,10 +1,11 @@
+from calculator import operations
 from calculator.cli import CLI
-from calculator.operations import subtract, multiply
 
 if __name__ == "__main__":
     opt = {
-        'subtract': subtract,
-        'multiply': multiply,
+        'add': operations.add,
+        'subtract': operations.subtract,
+        'multiply': operations.multiply,
     }
 
     cli = CLI(opt)
