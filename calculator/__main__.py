@@ -6,6 +6,7 @@ if __name__ == "__main__":
         'add': operations.add,
         'subtract': operations.subtract,
         'multiply': operations.multiply,
+        'divide': operations.divide
     }
 
     cli = CLI(opt)

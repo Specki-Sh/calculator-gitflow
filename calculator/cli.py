@@ -1,6 +1,7 @@
 import sys
 from typing import Callable, Dict
 
+
 class CLI:
     operations: Dict[str, Callable]
 
@@ -27,4 +28,3 @@ class CLI:
             print(f"Argument error during operation '{operation_name}': {e}")
         except Exception as e:
             print(f"Error during operation '{operation_name}': {e}")
-
